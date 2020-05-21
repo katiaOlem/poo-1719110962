@@ -23,7 +23,7 @@ class Estudiante:
   def reprobar(self):
     print("Reprobar")
   
-  def __init__(self):
+ def __init__(self):
     print("Constructor Estudiante")
   
 objeto_estudiante= Estudiante ()
