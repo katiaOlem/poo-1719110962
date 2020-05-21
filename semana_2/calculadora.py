@@ -26,7 +26,15 @@ class Calculadora:
   def __init__(self):
    print("Constructor Calculadora")
 
+
 objeto_calculadora= Calculadora ()
+objeto_calculadora.encender()
+objeto_calculadora.apagar()
+objeto_calculadora.restar()
+objeto_calculadora.mostrar()
+objeto_calculadora.encender()
+objeto_calculadora.apagar()
+
 print(objeto_calculadora.numeros)
 print(objeto_calculadora.espacios)
 print(objeto_calculadora.puntos)
