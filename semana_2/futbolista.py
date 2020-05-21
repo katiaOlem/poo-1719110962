@@ -30,6 +30,12 @@ class Futbolista:
     print("Constructor Futbolista")
 
 objeto_futbolista= Futbolista()
+objeto_futbolista.correr()
+objeto_futbolista.golpear()
+objeto_futbolista.jugar()
+objeto_futbolista.avanzar()
+objeto_futbolista.golear()
+
 print(objeto_futbolista.nombre)
 print(objeto_futbolista.nacionalidad)
 print(objeto_futbolista.equipo)
