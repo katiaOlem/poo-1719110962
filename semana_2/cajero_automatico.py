@@ -3,7 +3,7 @@ class Cajero:
   nombre="Cajero 1"
   pin="4 digitos"
   dinero="10.00 - 6,000,000.00"
-  tranferencia="10.000 - 6,000,000.00"
+  tranferencia="100.000 - 6,000,000.00"
   tarjeta="Debito,credito,ahorro"
   depositos="10.000 - 6,000,000.00"
   retiros="10.000 - 6,000,000.00"
@@ -21,6 +21,7 @@ class Cajero:
     print("Apagar")
   def transferir(self):
     print("Transferir")
+
   def __init_(self):
     print("Cronstructor Cajero Automatico")
   
