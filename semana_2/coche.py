@@ -21,7 +21,7 @@ class Coche:
     print("Frenar")
   def manejar (self):
     print("Manejar")
-  def frenar(self):
+  def transportar(self):
     print("Transportar")
 
   def __init__(self):
