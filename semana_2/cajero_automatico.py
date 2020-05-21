@@ -32,7 +32,7 @@ objeto_cajero.apagar()
 objeto_cajero.transferir()
 
 print(objeto_cajero.nombre)
-print(objeto_cajero.transferencia)
+print(objeto_cajero.transferir)
 print(objeto_cajero.numeros)
 print(objeto_cajero.dinero)
 print(objeto_cajero.pin)
