@@ -17,15 +17,18 @@ class Banco:
 
  def  retirar(self):
    print("Retirar")
-   def abonar(self):
-     print("Abonar")
-     def transferir(self):
-       print("Transferir")
-       def prestar(self):
-         print ("Prestar")
-         def cobrar (self):
-           print("cobrar")
+ def abonar(self):
+   print("Abonar")
+ def transferir(self):
+   print("Transferir")
+ def prestar(self):
+   print ("Prestar")
+ def cobrar (self):
+   print("cobrar")
+  def __init__(self):
+    print("Constructor Banco")
 
 objeto_banco= Banco()
+
 objeto_banco.retirar()
 print objeto_banco.encender()
