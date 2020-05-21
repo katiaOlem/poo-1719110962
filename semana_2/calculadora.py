@@ -11,7 +11,6 @@ class Calculadora:
   multiplicaciones="5X4, 8*3 "
   sumas="5+5"
   restas="1-8"
-
  #METODOS
   def encender (self):
     print("Encender")
