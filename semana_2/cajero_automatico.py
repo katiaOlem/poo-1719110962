@@ -3,7 +3,7 @@ class Cajero:
   nombre="Cajero 1"
   pin="4 digitos"
   dinero="10.00 - 6,000,000.00"
-  tranferencia="100.000 - 6,000,000.00"
+  transferencia="100.000 - 6,000,000.00"
   tarjeta="Debito,credito,ahorro"
   depositos="10.000 - 6,000,000.00"
   retiros="10.000 - 6,000,000.00"
@@ -33,7 +33,7 @@ objeto_cajero.apagar()
 objeto_cajero.transferir()
 
 print(objeto_cajero.nombre)
-print(objeto_cajero.transferir)
+print(objeto_cajero.transferencia)
 print(objeto_cajero.numeros)
 print(objeto_cajero.dinero)
 print(objeto_cajero.pin)
