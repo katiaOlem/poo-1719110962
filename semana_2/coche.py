@@ -32,7 +32,7 @@ objeto_coche.encender()
 objeto_coche.apagar()
 objeto_coche.manejar()
 objeto_coche.transportar()
-objeto_avion.frenar()
+objeto_coche.frenar()
 
 
 print(objeto_coche.marca)
