@@ -35,7 +35,7 @@ objeto_serie_tv = Serie()
 
 objeto_serie_tv.comenzar()
 objeto_serie_tv.motivar()
-objeto_serie_tv.pausar()
+objeto_serie_tv.reproducir()
 objeto_serie_tv.terminar()
 objeto_serie_tv.transmitir()
 
