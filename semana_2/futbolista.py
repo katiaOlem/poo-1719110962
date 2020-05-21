@@ -23,7 +23,7 @@ class Futbolista:
     print("Jugar")
  def avanzar(self):
     print ("Avanzar")
- def golerar(self):
+ def golear(self):
     print("Golear")
   
  def __init__(self):
