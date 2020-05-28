@@ -22,6 +22,7 @@ class Banco ():
 class BancoCompartamos (Banco):
 
   #ATRIBUTOS
+  nombre=("CompartamosBanco")
   horario="7:00a.m-9:00p.m"
   lugar="Mateos"
   direccion="Rubi #215"
@@ -31,7 +32,7 @@ class BancoCompartamos (Banco):
   color="Azul"
   cajeros="25"
   empleados="29"
-  computadoras="25"
+  
 
   def retirar(self):
     print("Retirar")
@@ -61,6 +62,7 @@ objeto_banco_compartamos.retirar()
 objeto_banco_compartamos.abonar()
 objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.recibir()
+print(objeto_banco_compartamos.nombre)
 print(objeto_banco_compartamos.horario)
 print(objeto_banco_compartamos.lugar)
 print(objeto_banco_compartamos.direccion)
