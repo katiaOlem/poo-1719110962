@@ -1,7 +1,7 @@
 class Banco ():
  #ATRIBUTOS
+ nombre="Compartamos"
  horario= " 8:00a.m-10:00p.m "
- lugar= "San Jose"
  direccion= "Encinos #210"
  depositos=" 10.00- 6,000,000 "
  retiros= " 100.00 - 6,000,000 "
@@ -12,8 +12,7 @@ class Banco ():
     print("Retirar")
  def abonar(self):
     print("Abonar")
- def transferir(self):
-    print("Transferir")
+ 
 
  def __init__(self):
     print("Constructor Banco")
@@ -36,23 +35,32 @@ class BancoCompartamos (Banco):
 
   def retirar(self):
     print("Retirar")
-  def transferir (self):
-    print("Transferir")
   def abonar(self):
     print("Abonar")
+  def transferir (self):
+    print("Transferir")
   def recibir(self):
     print("Recibir")
-  def consultar(self):
-    print("Consultar")
+
   def __init__(self):
     print("Constructor BancoCompartamos")
 
+
+objeto= Banco()
+
+objeto.retirar()
+objeto.abonar()
+print(objeto.nombre)
+print(objeto.horario)
+print(objeto.direccion)
+print(objeto.depositos)
+print(objeto.retiros)
+
 objeto_banco_compartamos= BancoCompartamos()
 objeto_banco_compartamos.retirar()
-objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.abonar()
+objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.recibir()
-objeto_banco_compartamos.consultar()
 print(objeto_banco_compartamos.horario)
 print(objeto_banco_compartamos.lugar)
 print(objeto_banco_compartamos.direccion)
