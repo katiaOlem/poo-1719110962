@@ -1,4 +1,4 @@
-class Banco ()
+class Banco ():
  #ATRIBUTOS
  horario= " 8:00a.m-10:00p.m "
  lugar= "San Jose"
@@ -10,17 +10,18 @@ class Banco ()
  #METODOS
  def retirar(self):
     print("Retirar")
-  def abonar(self):
+ def abonar(self):
     print("Abonar")
-  def transferir(self):
+ def transferir(self):
     print("Transferir")
 
-  def __init__(self):
+ def __init__(self):
     print("Constructor Banco")
 
 
  #HERENCIA
-class BancoCompartamos Banco(): 
+class BancoCompartamos (Banco):
+
   #ATRIBUTOS
   horario="7:00a.m-9:00p.m"
   lugar="Mateos"
@@ -43,12 +44,12 @@ class BancoCompartamos Banco():
     print("Recibir")
   def consultar(self):
     print("Consultar")
- def __init__(self):
+  def __init__(self):
     print("Constructor BancoCompartamos")
 
 objeto_banco_compartamos= BancoCompartamos()
 objeto_banco_compartamos.retirar()
-objeto_banco_compartamos.tranferir()
+objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.abonar()
 objeto_banco_compartamos.recibir()
 objeto_banco_compartamos.consultar()
