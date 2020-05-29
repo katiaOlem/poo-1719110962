@@ -18,7 +18,7 @@ class Cajero():
   
 class CajeroFull(Cajero):
   #ATRIBUTOS
-  contraseña="18965"
+  contrasena="18965"
   chip="si"
   impresora="Matricial"
   tarjetas="Debito, Credito"
@@ -51,7 +51,7 @@ print(objeto_full.depositos)
 print(objeto_full.retiros)
 print(objeto_full.numeros)
 print(objeto_full.pantalla)
-print(objeto_full.contraseña)
+print(objeto_full.contrasena)
 print(objeto_full.chip)
 print(objeto_full.impresora)
 print(objeto_full.tarjetas)
