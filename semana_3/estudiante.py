@@ -38,6 +38,8 @@ objeto.asignar()
 print(objeto.nombre)
 print(objeto.matricula)
 print(objeto.carrera)
+print(objeto.edad)
+print(objeto.semestre)
 
 objeto_estudiante_katia=EstudianteKatia()
 objeto_estudiante_katia.elegir()
