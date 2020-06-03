@@ -25,10 +25,14 @@ class CajeroFull(Cajero):
   envios="Toda la Republica"
 
   #METODOS
+  def retirar(self):
+    print("Retirar dinero de 100 MXN minimo")
+  def extraer (self):
+    print("Extraer el dinero del cajero con su tarjeta")
   def abonar(self):
    print("Abonar")
   def recargar(self):
-   print("Recargar")
+   print("Recargar ")
   def __init__(self):
     print("Constructor Cajero Automatico Full")
 
@@ -37,10 +41,15 @@ objeto_full.retirar()
 objeto_full.extraer()
 objeto_full.abonar()
 objeto_full.recargar()
+objeto_full.nombre="Cajero Automatico de BBVA"
 print(objeto_full.nombre)
+objeto_full.depositos="Depositos de 100 MXN minima hasta 9500 MXN maxima"
 print(objeto_full.depositos)
+objeto_full.retiros="Desde su app con y sin Tarjeta"
 print(objeto_full.retiros)
+objeto_full.numeros="del 0 al 9 Touch"
 print(objeto_full.numeros)
+objeto_full.pantalla="llamada touchscreen"
 print(objeto_full.pantalla)
 print(objeto_full.contrasena)
 print(objeto_full.chip)
