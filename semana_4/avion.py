@@ -2,7 +2,7 @@ class Avion():
   #ATRIBUTOS
   nombre="POLARIS"
   asientos="35"
-  alas="2"
+  alas="2 perfil Alar"
   llantas="4"
   ventanas="36"
 
@@ -19,8 +19,8 @@ class AvionPolaris(Avion):
   #ATRIBUTOS
   color="Blanco con franjas Rojas"
   tamano="Mediano"
-  velocidad="950 km/h"
-  altura= " 10 km "
+  velocidad="950 km/h de velocidad "
+  altura= " 10 km de altura "
   control="Automatico"
 
   #Metodos
@@ -43,7 +43,7 @@ objeto_polaris.volar()
 objeto_polaris.manejar()
 objeto_polaris.nombre= " Boeing 757-200 "
 print(objeto_polaris.nombre)
-objeto_polaris.asientos= "Clase empresarial 25-  United Economy 108 - Plus United Economy 45 "
+objeto_polaris.asientos= "Asientos de Clase empresarial 25-  United Economy 108 - Plus United Economy 45 "
 print(objeto_polaris.asientos)
 objeto_polaris.llantas="3 llantas de doble Rodada"
 print(objeto_polaris.llantas)
