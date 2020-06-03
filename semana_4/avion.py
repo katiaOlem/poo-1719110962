@@ -25,7 +25,7 @@ class AvionPolaris(Avion):
 
   #Metodos
   def despegar(self):
-    print("Despegar de Cancun")
+    print("Despegar de Cancun") #Polimorfismo
   def aterrizar(self):
     print("Aterrizar en Mexico")
   def volar(self):
@@ -41,7 +41,7 @@ objeto_polaris.despegar()
 objeto_polaris.aterrizar()
 objeto_polaris.volar()
 objeto_polaris.manejar()
-objeto_polaris.nombre= " Boeing 757-200 "
+objeto_polaris.nombre= " Boeing 757-200 " #Polimorfismo
 print(objeto_polaris.nombre)
 objeto_polaris.asientos= "Asientos de Clase empresarial 25-  United Economy 108 - Plus United Economy 45 "
 print(objeto_polaris.asientos)
