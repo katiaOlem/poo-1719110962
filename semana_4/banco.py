@@ -22,40 +22,38 @@ class Banco ():
 class BancoCompartamos (Banco):
 
   #ATRIBUTOS
-  logo="Casa"
-  color="Azul"
-  cajeros="25"
-  empleados="29"
-  computadoras="27"
+  logo="Peces azules y Rosas"
+  color="Rosa"
+  cajeros="25 Cajeros"
+  empleados="29 Empleados"
+  computadoras="27 Equipos de Computo"
 
+  def retirar (self):
+    print(" Retirar desde 7,313 MXN ")
+  def abonar (self):
+    print(" Abonar desde un Oxxo")
   def transferir (self):
-    print("Transferir")
+    print("Transferir desde los cajeros")
   def recibir(self):
-    print("Recibir")
+    print("Recibir de otras tarjetas de Credito & debito")
 
   def __init__(self):
     print("Constructor Banco Compartamos")
-
-
-objeto= Banco()
-
-objeto.retirar()
-objeto.abonar()
-print(objeto.nombre)
-print(objeto.horario)
-print(objeto.direccion)
-print(objeto.depositos)
-print(objeto.retiros)
 
 objeto_banco_compartamos= BancoCompartamos()
 objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.recibir()
 objeto_banco_compartamos.retirar()
 objeto_banco_compartamos.abonar()
+objeto_banco_compartamos.nombre=" Banco Compartamos Tulancingo"
 print(objeto_banco_compartamos.nombre)
+objeto_banco_compartamos.horario="de 10 a.m hasta las 9 p.m"
 print(objeto_banco_compartamos.horario)
+objeto_banco_compartamos.direccion="Calle Libertad 113 Col. Centro Tulancingo Hgo."
 print(objeto_banco_compartamos.direccion)
+objeto_banco_compartamos.depositos="maximo 19,501 MXN"
 print(objeto_banco_compartamos.depositos)
+objeto_banco_compartamos.retiros="7,313 MXN maximo por Operacion"
 print(objeto_banco_compartamos.retiros)
 print(objeto_banco_compartamos.logo)
 print(objeto_banco_compartamos.color)
