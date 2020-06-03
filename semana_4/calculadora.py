@@ -23,7 +23,7 @@ class CalculadoraCientifica(Calculadora):
 
   #METODOS
   def encender (self):
-    print("Encender con el boton ON ")
+    print("Encender con el boton ON ") #POLIMORFISMO
   def apagar(self):
     print("Apagar un con el boton OFF")
   def restar (self):
@@ -39,7 +39,7 @@ objeto_calculadora.encender()
 objeto_calculadora.apagar()
 objeto_calculadora.restar()
 objeto_calculadora.borrar()
-objeto_calculadora.tipo="Calculadora Cientifica"
+objeto_calculadora.tipo="Calculadora Cientifica" #POLIMORFISMO
 print(objeto_calculadora.tipo)
 objeto_calculadora.numero="numeros del 0 al 9"
 print(objeto_calculadora.numeros)
