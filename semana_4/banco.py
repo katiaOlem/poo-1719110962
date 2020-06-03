@@ -28,7 +28,7 @@ class BancoCompartamos (Banco):
   empleados="29 Empleados"
   computadoras="27 Equipos de Computo"
 
-  def retirar (self):
+  def retirar (self): #Polimorfismo
     print(" Retirar desde 7,313 MXN ")
   def abonar (self):
     print(" Abonar desde un Oxxo")
@@ -45,7 +45,7 @@ objeto_banco_compartamos.transferir()
 objeto_banco_compartamos.recibir()
 objeto_banco_compartamos.retirar()
 objeto_banco_compartamos.abonar()
-objeto_banco_compartamos.nombre=" Banco Compartamos Tulancingo"
+objeto_banco_compartamos.nombre=" Banco Compartamos Tulancingo" #Polimorfismo
 print(objeto_banco_compartamos.nombre)
 objeto_banco_compartamos.horario="de 10 a.m hasta las 9 p.m"
 print(objeto_banco_compartamos.horario)
