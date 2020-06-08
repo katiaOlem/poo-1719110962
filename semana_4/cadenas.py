@@ -49,5 +49,5 @@ class Mensaje: #Clase
       r=input("¿Desea analizar otra cadena s/n?")#Si la respuesta es "S" or "s" volvera a analizar otro dato
       if r=="N" or r=="n": #Si la respuesta es "N" or "n"se termina el programa.
         break
-objecto_cadena=Mensaje() 
-objecto_cadena.bucleWhile()
+objeto_cadena=Mensaje() 
+objeto_cadena.bucleWhile()
