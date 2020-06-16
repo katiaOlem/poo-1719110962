@@ -6,7 +6,7 @@ class Mensaje: #Clase
     while r=="S" or r=="s": #Respuesta
       cadena=input() #Insertar el Mensaje
       print(cadena) #imprime el Mensaje
-      print(len(cadena)) #numeo de caracteres 
+      print(len(cadena)) #numero de caracteres 
       print(cadena.replace(" ", "")) #elimina los espacios
       print(cadena.lower()) #Convierte en Minusculas
       print(cadena.upper()) #Convierte en Mayusculas
