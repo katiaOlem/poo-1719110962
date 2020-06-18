@@ -4,8 +4,8 @@ class Palindromo: #Clase
     def texto(self): 
       r="S"
       while r=="S" or r=="s":
-       frase = input(" Ingresa el texto que desea analizar= ") #Insertara Texto
-       texto = frase.lower()
+       frase = input(" Ingrese el texto que desea analizar = ") #Insertara Texto
+       texto = frase.lower() #Minusculas
        total_de_espacios=0 #Conteo de los espacios
        for espacios in texto: # Analizara la cadena para obtener los espacios
           if espacios in " ": 
