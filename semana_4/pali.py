@@ -4,7 +4,7 @@ class Palindromo: #Clase
     def texto(self): 
       r="S"
       while r=="S" or r=="s":
-       frase = input("Ingresa el texto que desea analizar= ") #Insertara Texto
+       frase = input(" Ingresa el texto que desea analizar= ") #Insertara Texto
        texto = frase.lower()
        total_de_espacios=0 #Conteo de los espacios
        for espacios in texto: # Analizara la cadena para obtener los espacios
@@ -14,25 +14,24 @@ class Palindromo: #Clase
             
        frase = frase.lower()  # Convierte el texto a Minusculas
        print(frase)
-       frase = frase.replace(" ", "")  # elimina los espacios que tenga el texto
-       frase=frase.replace(".", "")
-       frase=frase.replace("á","a") 
-            #reemplazan las letras con tilde por una sin tilde
-       frase = frase.replace("é", "e")
-       frase = frase.replace("í", "i")
-       frase = frase.replace("ó", "o")
-       frase= frase.replace("ú", "u")
-       print(frase)
-       contador_de_vocales=0
-       for vocales in frase: #contara los caracteres
+       frase = frase.replace(" ", "")  # Elimina los espacios que tenga el texto
+       frase=frase.replace(".", "") #Elimina los caracteres que pueda tener el texto
+       frase=frase.replace("á","a")  #Reemplaza la Tilde
+       frase = frase.replace("é", "e") #Reemplaza la Tilde
+       frase = frase.replace("í", "i") #Reemplaza la Tilde
+       frase = frase.replace("ó", "o") #Reemplaza la Tilde 
+       frase= frase.replace("ú", "u") #Reemplaza la Tilde
+       print(frase) #Imprime el texto sin espacios, ni caracteres, ni tildes para leer si es Palindromo el texto
+       contador_de_vocales=0 #contara el numero de vocales en la frase 
+       for vocales in frase:
           if vocales in "aeiou":
             contador_de_vocales+=1
 
-       print(contador_de_vocales)
+       print(contador_de_vocales) #Imprimira el total de las vocales
        inversa=""
 
-       for i in frase: #Permitira obtener la letra de la cadena 
-            inversa= i + inversa # Obtendremos laultimaletra de la palabra o frase
+       for i in frase: #Permitira obtener el texto modificado
+            inversa= i + inversa # Es la manera en que nos permitira leer el texto a la inversa y saber si el texto es Palindromo 
        if inversa==frase:
               print("El texto que Ingreso es Palindromo")
        else:
