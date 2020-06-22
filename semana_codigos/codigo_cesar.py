@@ -21,10 +21,8 @@ class CodigoCesar: #CLASE
                 decifrar_cadena=tuple(map(str,cadena.split(","))) #Cadena arreglada 
                 for decifrado in decifrar_cadena:#
                                         decifrar.append(enie)
-                    if decifrado in "32,":
-                        espacio=chr(32)
-                        decifrar.append(espacio)
-                    elif decifrado in "97,":
+
+                    f decifrado in "97,":
                         a=chr(97) #convierte el numero a letra
                         decifrar.append(a) #la almacena en la variable decifrar de tipo tupla o arreglo
                     elif decifrado in "98,":
@@ -104,6 +102,9 @@ class CodigoCesar: #CLASE
                         decifrar.append(z)
                     elif decifrado in "164,":
                         enie=chr(164)
+                    elif decifrado in "32,":
+                        espacio=chr(32)
+                        decifrar.append(espacio)
 
                 print(decifrar) #impirme la cadena decifrada
                 respuesta=input("¿Desea cifrar/descifrar otra cadena s/n?") #Permite repetiir el proceso
