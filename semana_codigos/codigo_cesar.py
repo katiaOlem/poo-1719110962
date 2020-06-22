@@ -20,9 +20,9 @@ class CodigoCesar: #CLASE
                 cadena=input("Inserte cadena a decifrar ") #pide la cadena que se desea desifrar
                 decifrar_cadena=tuple(map(str,cadena.split(","))) #Cadena arreglada 
                 for decifrado in decifrar_cadena:#
-                                        decifrar.append(enie)
+                        decifrar.append(enie)
 
-                    f decifrado in "97,":
+                    if decifrado in "97,":
                         a=chr(97) #convierte el numero a letra
                         decifrar.append(a) #la almacena en la variable decifrar de tipo tupla o arreglo
                     elif decifrado in "98,":
