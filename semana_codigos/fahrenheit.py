@@ -6,11 +6,11 @@ class Temperaturas:#Clase
         grados_fahrenheit=[]#Variable que Almacenara Grados Fahrenheit
         r="S"#Variable de Respuesta para que este se repita 
         contador=0 #Varible que nos contara el Total de veces que se hará el programa 
-        while r="S" or r=="s": #si respuesta es S vs s el programa seguira 
+        while r=="S" or r=="s": #si respuesta es S vs s el programa seguira 
             contador+=1 #La variable contador se sumara +1
             temperatura=int(input("Inserte la temperatura en grados Centigrados= ")) #Variable que nos permitira Poner los Grados Centigrados que se desean Convertir 
             grados_centigrados.append(temperatura) #Variable que se almacena para que esta pueda ser analizada 
-            convertir=((temperatura)*(9/5))+32) #Formula que permite convertir la temperatura de centigrados a fahrenheit
+            convertir=((temperatura)*(9/5))+32 #Formula que permite convertir la temperatura de centigrados a fahrenheit
             grados_fahrenheit.append(convertir) #variable que alamacenara los grados Fahrenheit
             r=input("¿Desea convertir otra temperatura de grados Centigrados a Fahrenheit? ") #Variable que nos permitira repetir el programa 
             if r=="N" or r=="n": #si la se respuesta es N vs n Finaliza el Programa 
