@@ -3,3 +3,8 @@ El total de las temperaturas analizadas en grados Centigrados son=  [36, 45, 45,
 El total de las temperaturas convertidas a grados Fahrenheit [96.8, 113.0, 113.0, 55.400000000000006]
 El Promedio Total de las temperatura en grados Centigrados son= 34.75
 El promedio de las temperaturas en grados Fahrenheit son= 94.55000000000001
+Temperaturas Analizadas en el programa 
+El total de las temperaturas analizadas en grados Centigrados son=  [36, 45, 13, 32, 36]
+El total de las temperaturas convertidas a grados Fahrenheit [96.8, 113.0, 55.400000000000006, 89.6, 96.8]
+El Promedio Total de las temperatura en grados Centigrados son= 32.4
+El promedio de las temperaturas en grados Fahrenheit son= 90.32000000000002

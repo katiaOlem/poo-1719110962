@@ -15,7 +15,7 @@ class Temperaturas:#Clase
             r=input("¿Desea convertir otra temperatura de grados Centigrados a Fahrenheit? ") #Variable que nos permitira repetir el programa 
             if r=="N" or r=="n": #si la se respuesta es N vs n Finaliza el Programa 
                 editar=open("temperaturas.txt","a") #Variable que nos permitira abrir el documento donde con "a" sera posible editar y guardara las temperaturas agregadas en este programa  a=append
-                editar.write("Totales \n") #Variabe que nos permitira escribir
+                editar.write("Temperaturas Analizadas en el programa \n") #Variabe que nos permitira escribir
                 editar.write("El total de las temperaturas analizadas en grados Centigrados son=  "+str(grados_centigrados)+"\n") #Imprimira las temperaturas que se guardaron en este programa en el documento abierto.
                 editar.write("El total de las temperaturas convertidas a grados Fahrenheit "+str(grados_fahrenheit)+"\n")#Imprime las temperaturas convertidas en grados Fahrenheit en el documento abierto
                 promedio_total=sum(grados_centigrados)/contador # Variable que nos sumara todas las temperaturas de grados centigrados 
