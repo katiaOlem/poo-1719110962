@@ -27,7 +27,7 @@ class Temperaturas:#Clase
 		
     maxima_fecha =max(
 		    datos_max.items(), key=lambda x: x[1]
-		)  #busca el mayor dato posible
+		) 
     #items Devuelve una lista de tuplas
 		#Key Mostrara los datos del diccionario
 		#lambda función anónima dentro de otra función
