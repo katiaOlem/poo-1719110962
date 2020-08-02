@@ -1,38 +1,40 @@
 r="S" #variable que ayudara al ciclo while
-datos_peli=[]
-genero=[] #arreglo para almacenar el genero de la pelicula
-peliculas=[]
+datos_pelicula=[]
+generos=[]
+
 class Peliculas: #creamos la clase Peliculas
-  def __init__(self): #definimos el metodo contructor
+    def __init__(self): #definimos el metodo contructor
         pass
-  def DatosPeliculas(self): #metodo que pide los datos de las peliculas
+    def DatosPeliculas(self): #metodo que pide los datos de las peliculas
       
-      nombre=input("Nombre de la pelicula: ") #pide el nombre de la pelicula
-      anio=input("Año de lanzamiento: ") #pide el año de lanzamiento de la pelicula
-      genero_pelicula=input("Genero de la pelicula: ") #pide el genero de la pelicula
+       nombre=input("Nombre Pelicula  ") #pide el nombre de la pelicula
+       anio=input("Año de su Lanzamiento  ") #pide el año de lanzamiento de la pelicula
+       genero_pelicula=input("Genero  ") #pide el genero de la pelicula
+       datos_pelicula.append("Pelicula  " + str (nombre)+ "Año  "+ str (anio))
+       generos.append("Genero  "+ str(genero_pelicula))
 
-      datos_peli.append(nombre,anio)
-      genero.append(genero_pelicula) 
-      diccionario=dict(zip(datos_peli,genero))
+    def DiccionarioPeliculas(self):
+
+        datos_peli=dict(zip(datos_pelicula,generos))
       
 
+        print(datos_peli)
+      
 
-      print(diccionario) #imprime el diccionario creado
-    
+        generos_list=input("Genero de la Pelicula que desea ver  ") #pide el nombre de un genero de pelicula
 
-      nombre_genero=input("Genero de la Pelicula que desea= ") #pide el nombre de un genero de pelicula
-      if nombre_genero in diccionario.values(): #si el nombre del genero esta el los valores del diccionario
-            for catalogo in diccionario: #lee el diccionario
-                if diccionario[catalogo]==nombre_genero: #si el diccionario tiene el genero que insertaste
-                    print(catalogo) #impime las peliculas con ese genero
- 
-while r=="s" or r=="S": #mientras respuesta sea S o s
-    objeto_Peliculas=Peliculas() #Llama a la clase objeto
-    objeto_Peliculas.DatosPeliculas() #invoca a los el metodo que pide los datos
-    r=input("¿Desea Capturar mas peliculas? S/N ") #si deseas continuar capturando peliculas 
-    if r=="n" or r=="N": #si la respuesta es n o N
-        
-        break #finaliza el codigo con un brake
+        if generos_list in datos_peli.keys(): 
+           for lista in datos_peli: #lee el diccionario
+               if datos_peli[lista] == generos_list: #si el diccionario tiene el genero que insertaste
+                  print("Las peliculas Disponibles son=" + str (lista))#impime las peliculas con ese genero
+while r=="s" or r=="S": 
+    obj=Peliculas()
+    obj.DatosPeliculas() 
+
+    r=input("¿Desea Capturar mas peliculas? S/N ") 
+    if r=="n" or r=="N": 
+        obj.DiccionarioPeliculas()
+        break 
         
                 
   
