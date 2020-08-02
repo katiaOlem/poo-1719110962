@@ -31,7 +31,7 @@ while r=="s" or r=="S":
     obj=Peliculas()
     obj.DatosPeliculas() 
 
-    r=input("¿Desea Capturar mas peliculas? S/N ") 
+    r=input(" \n ¿Desea Ingresar otra Pelicula? s/n ") 
     if r=="n" or r=="N": 
         obj.DiccionarioPeliculas()
         break 
